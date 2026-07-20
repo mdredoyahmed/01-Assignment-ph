@@ -48,7 +48,6 @@
     border-radius: 8px;
     font-weight: 600;
     font-size: 15px;
-    cursor: pointer;
     border: none;
     background: blue;
     color: #fff;    
@@ -58,4 +57,75 @@
   button a {
     text-decoration: none;
     color: #fff;
+  }
+
+  /* banner section  */
+
+  .hero {
+    background: url('../img/banner.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+    
+
+.hero h1 {
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 22px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    color: #c7ccdb;
+    max-width: 640px;
+    margin: 0 auto 40px;
+  }
+
+.section { padding: 80px 24px; }
+
+.section-title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 48px;
+  }
+ .speaker-grid {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 34px;
+  }
+ .speaker-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+  }
+ .speaker-avatar {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    padding: 20px;
+  }
+  .speaker-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   }
