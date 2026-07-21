@@ -182,6 +182,10 @@
     color: var(--gray-600);
   }
 
+   ul li::marker {
+    color: #2563eb; 
+}
+
   .price-features {
     flex: 1;
     margin-bottom: 24px;
@@ -203,3 +207,79 @@
     text-decoration: none;
     color: blue;
   }
+
+ 
+  /* Schedule Section */
+
+.schedule {
+    padding: 100px 0;
+    background: #f8fafc;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin: 15px auto 50px;
+    max-width: 650px;
+    line-height: 1.6;
+}
+
+.schedule-table {
+    overflow-x: auto;
+}
+
+.schedule-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.schedule-table th {
+    background: #2563eb;
+    color: #fff;
+    padding: 18px;
+    font-size: 18px;
+}
+
+.schedule-table td {
+    padding: 18px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.schedule-table tbody tr:hover {
+    background: #f1f5f9;
+}
+
+.schedule-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 14px 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+
+ 
