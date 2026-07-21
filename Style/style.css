@@ -282,4 +282,31 @@
     background: #1d4ed8;
 }
 
- 
+ @media (max-width: 800px) {
+    nav { display: none; }
+    .hero h1 { font-size: 38px; }
+    .speaker-grid,
+    .pricing-grid { grid-template-columns: 1fr; }
+    .price-card.featured { transform: none; }
+  }
+
+
+
+@media (max-width:800px){
+
+.section-title{
+    font-size:34px;
+}
+
+.schedule-table th,
+.schedule-table td{
+    padding:12px;
+    font-size:14px;
+}
+
+.btn-primary{
+    width:100%;
+    text-align:center;
+}
+
+}
